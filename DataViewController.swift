@@ -28,12 +28,15 @@ class DataViewController: UIViewController {
         super.viewWillAppear(animated)
         self.dataLabel!.text = dataObject
     }
+    
+    @IBAction func KeywordButton(_ sender: UIButton) {
         
     }
-
-
-
-
+    //table view
+    //size->font
+    
+        
+    }
 
 
 

@@ -34,16 +34,22 @@ class Memo {
         return Keyword
     }
     
-    func getScore(importance: Bool, visitCount: Int) -> Int{
+    func getScore(importance : Bool, visitCount : Int) -> Int{
         //중요도 50 방문기록 50
     }
     
+    func getMemodata(text : String) -> String {
+        
+        //Title? keyword? text?
+        
+    }
     
-    let memoData:String
-    let visitCount: Int
+    
+    let memoData :String
+    let visitCount : Int
     let Importance : Bool
     
-    init(memoData: String, visitCount: Int, Importance : Bool){
+    init(memoData : String, visitCount : Int, Importance : Bool){
         self.memoData = ""
         self.visitCount = 1
         self.Importance = false
